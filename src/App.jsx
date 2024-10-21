@@ -74,7 +74,7 @@ function App() {
             <BrowserRouter>
                 <NavBar />
                 <Routes>
-                    <Route index path="/" element={<Home />} />
+                    <Route path="First-React-project/" element={<Home />} />
                     <Route
                         path="products"
                         element={

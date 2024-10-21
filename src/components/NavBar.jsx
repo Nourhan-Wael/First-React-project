@@ -6,7 +6,7 @@ function NavBar() {
             <h1 className={styles.logo}>Shopping</h1>
             <ul className={styles.list}>
                 <li>
-                    <NavLink to="/">Home</NavLink>
+                    <NavLink to="First-React-project/">Home</NavLink>
                 </li>
                 <li>
                     <NavLink to="/products">Products</NavLink>
