@@ -1,0 +1,48 @@
+.cart{
+    margin: auto;
+    /* width: 50%; */
+    margin: 22%;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: gainsboro;
+}
+.title{
+    text-align: center;
+    font-size:28px ;
+    margin-bottom: 30px;
+}
+
+.clear{
+    background-color: rgb(216, 44, 44);
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.pay{
+    display: flex;
+    justify-content: space-between;
+}
+
+.totalPrice{
+    background-color: #343a40;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 35px;
+    font-size: 20px;
+}
+
+@media screen and (max-width:400px) {
+    .cart{
+        margin: 5%;
+    }
+    .clear{
+        font-size: 16px;
+        padding: 0px 10px;
+    }
+    .totalPrice{
+        font-size: 16px;
+        padding: 15px 25px;
+    }
+}

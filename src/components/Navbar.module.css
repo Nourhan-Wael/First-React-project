@@ -1,0 +1,34 @@
+.nav {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 79px;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.logo {
+    color: rgb(15, 197, 15);
+}
+
+.list{
+    width: 90%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.list a{
+    color: white;
+    text-decoration: none;
+}
+.list a:hover{
+    color: rgb(15, 197, 15);
+    text-decoration: underline;
+}
+
+@media screen and (max-width:400px) {
+    .nav{
+        padding: 2px;
+    }
+}
